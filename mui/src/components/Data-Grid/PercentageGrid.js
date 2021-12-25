@@ -1,46 +1,40 @@
-import * as React from 'react';
+import React from 'react'
 import { DataGrid } from '@mui/x-data-grid';
 
 const columns = [
   { 
-    field: 'id', 
-    headerName: 'ID', 
-    minwidth: 90,  
-    flex: 1,
+    key: 'id', 
+    name: 'ID', 
+    width: 90,
+    resizable: true,
   },
   {
-    field: 'firstName',
-    headerName: 'First name',
-    minwidth: 150,
+    key: 'firstName',
+    name: 'First name',
+    width: 150,
     editable: true,
-    flex: 1,
   },
   {
-    field: 'lastName',
-    headerName: 'Last name',
-    minwidth: 150,
+    key: 'lastName',
+    name: 'Last name',
+    width: 150,
     editable: true,
-    flex: 1,
   },
   {
-    field: 'age',
-    headerName: 'Age',
+    key: 'age',
+    name: 'Age',
     type: 'number',
-    minwidth: 110,
+    width: 110,
     editable: true,
-    flex: 1,
   },
   {
-    field: 'fullName',
-    headerName: 'Full name',
+    key: 'fullName',
+    name: 'Full name',
     description: 'This column has a value getter and is not sortable.',
     sortable: false,
-    minwidth: 160,
-    flex: 1,
+    width: 160,
     valueGetter: (params) =>
-      `${params.getValue(params.id, 'firstName') || ''} ${
-        params.getValue(params.id, 'lastName') || ''
-      }`,
+      `${params.row.firstName || ''} ${params.row.lastName || ''}`,
   },
 ];
 
@@ -56,7 +50,8 @@ const rows = [
   { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
 ];
 
-export default function DataGridDemo() {
+
+function PercentageGrid() {
   return (
     <div style={{ height: 400, width: '100%' }}>
       <DataGrid
@@ -68,5 +63,7 @@ export default function DataGridDemo() {
         disableSelectionOnClick
       />
     </div>
-  );
+  )
 }
+
+export default PercentageGrid

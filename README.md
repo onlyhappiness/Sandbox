@@ -11,3 +11,8 @@
 
 ## 2021-12-12
 #### mui data-grid 맛보기
+
+## 2021-12-25
+#### data-grid row를 %로 할 수있는지 검토
+#### data-grid column을 이런식으로 사용할 수 있다는 것을 참고하셈
++ https://www.telerik.com/kendo-react-ui/components/grid/columns/width/
