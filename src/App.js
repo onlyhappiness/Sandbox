@@ -3,6 +3,8 @@ import React from 'react'
 // import Percentage from './components/Data-Grid/PercentageGrid'
 // import TableDemo from './components/Data-Grid/TableDemo'
 
+import ParseTest from './parse/ParseTest'
+
 function App() {
   return (
     <>
@@ -11,6 +13,8 @@ function App() {
       {/* <Percentage /> */}
 
       {/* <FlexLayoutGrid /> */}
+
+      <ParseTest />
     </>
   )
 }
