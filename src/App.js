@@ -1,22 +1,15 @@
-import React from 'react'
-// import FlexLayoutGrid from './components/Data-Grid/FlexLayoutGrid'
-// import Percentage from './components/Data-Grid/PercentageGrid'
-// import TableDemo from './components/Data-Grid/TableDemo'
+import React from "react";
+import SearchText from "./components/search/SearchText";
+import "./App.css";
 
-import ParseTest from './parse/ParseTest'
+// import ParseTest from './parse/ParseTest'
 
 function App() {
   return (
     <>
-      {/* <TableDemo /> */}
-
-      {/* <Percentage /> */}
-
-      {/* <FlexLayoutGrid /> */}
-
-      <ParseTest />
+      <SearchText />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
