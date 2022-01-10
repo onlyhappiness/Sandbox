@@ -63,6 +63,8 @@ https://stackoverflow.com/questions/29186454/relational-query-in-parse
 >>> 3. 그러면 이거 https://www.npmjs.com/package/@parse/react 테스트 해보셈 
 >>> 4. 아니면.. 리덕스 사가가 잘못된건가..?
 
+---
+
 ## 2022.01.09
 ### 기존에 dummyData를 만들기 위해 사용하던 faker.js 개발자에게 무슨일이 생긴 것 같다.
 > https://generatedata.com/
@@ -70,3 +72,9 @@ https://stackoverflow.com/questions/29186454/relational-query-in-parse
 
 ### 검색 기능 구현 중
 > 내일 회사에서 써먹어봥
+
+---
+
+## 2022.01.10
+### 참고
+https://docs.parseplatform.org/js/guide/#creating-a-parsefile
