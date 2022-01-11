@@ -78,3 +78,14 @@ https://stackoverflow.com/questions/29186454/relational-query-in-parse
 ## 2022.01.10
 ### 참고
 https://docs.parseplatform.org/js/guide/#creating-a-parsefile
+
+---
+## 2022.01.11
+### 참고
+https://github.com/toofaniCoder/material-ui-pagination
+
+https://github.com/CodAffection/React-Material-UI-Table-Paging-Sorting-and-Filtering.
+
+https://cotak.tistory.com/112
+
+https://github.com/coderspirit-git/React-js-Pagination
